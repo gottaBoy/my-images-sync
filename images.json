@@ -14,6 +14,5 @@
   "k8s.gcr.io/etcd": "minyi/etcd",
   "k8s.gcr.io/coredns/coredns": "minyi/coredns",
   "k8s.gcr.io/ingress-nginx/kube-webhook-certgen": "minyi/kube-webhook-certgen",
-  "k8s.gcr.io/ingress-nginx/opentelemetry": "minyi/opentelemetry",
-  "k8s.gcr.io/defaultbackend-amd64": "minyi/defaultbackend-amd64"
+  "k8s.gcr.io/ingress-nginx/opentelemetry": "minyi/opentelemetry"
 }
