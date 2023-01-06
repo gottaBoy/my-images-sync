@@ -33,8 +33,8 @@
 ~~~powershell
 {
   "registry.hub.docker.com": {
-    "username": "${USERNAME}",
-    "password": "${PASSWORD}"
+    "username": "${DOCKER_USERNAME}",
+    "password": "${DOCKER_PASSWORD}"
   }
 }
 ~~~
