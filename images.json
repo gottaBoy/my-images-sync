@@ -1,13 +1,3 @@
-# my-images-sync
-> fork 这个仓库, 创建你自己的docker register 账号密码:
-
-- Settings
-- Secrets
-- New Repository Secrets
-- Add your DOCKER_USERNAME and DOCKER_PASSWORD key values.
-
-> 修改images.json 文件，改成你需要的
-~~~powershell
 {
   "quay.io/coreos/kube-rbac-proxy": "minyi/kube-rbac-proxy",
   "k8s.gcr.io/metrics-server/metrics-server": "minyi/metrics-server",
@@ -27,14 +17,3 @@
   "k8s.gcr.io/ingress-nginx/opentelemetry": "minyi/opentelemetry",
   "k8s.gcr.io/defaultbackend-amd64": "minyi/defaultbackend-amd64"
 }
-~~~
-
-> 修改auth.json，可以添加其他 docker register源
-~~~powershell
-{
-  "registry.hub.docker.com": {
-    "username": "${USERNAME}",
-    "password": "${PASSWORD}"
-  }
-}
-~~~
